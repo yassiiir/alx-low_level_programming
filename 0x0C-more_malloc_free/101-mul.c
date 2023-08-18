@@ -115,7 +115,7 @@ int main(int argc, char *argv[])
 	if (argc != 3 || check_for_digits(argv))
 	{
 		for (ti = 0; e[ti]; ti++)
-			_putchar(e[ti]);
+			 putchar(e[ti]);
 		exit(98);
 	}
 	for (l1 = 0; argv[1][l1]; l1++)
@@ -137,7 +137,7 @@ int main(int argc, char *argv[])
 		if (t == NULL)
 		{
 			for (ti = 0; e[ti]; ti++)
-				_putchar(e[ti]);
+				 putchar(e[ti]);
 			free(a);
 			exit(98);
 		}
